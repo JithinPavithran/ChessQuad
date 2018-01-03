@@ -1,0 +1,45 @@
+00rR01nR = (0,0)-rookRed, (0,1)-knightRed
+
+initial:
+20rT 30nT 40bT 50qT 60kT 70bT 80nT 90rT
+2brB 3bnB 4bbB 5bqB 6bkB 7bbB 8bnB 9brB
+02rL 03nL 04bL 05qL 06kL 07bL 08nL 09rL
+b2rR b3nR b4bR b5qR b6kR b7bR b8nR b9rR
+
+
+20rT,30nT,40bT,50qT,60kT,70bT,80nT,90rT,2brB,3bnB,4bbB,5bqB,6bkB,7bbB,8bnB,9brB,02rL,03nL,04bL,05qL,06kL,07bL,08nL,09rL,b2rR,b3nR,b4bR,b5qR,b6kR,b7bR,b8nR,b9rR
+
+21pT 21pT 41pT 51pT 61pT 71pT 81pT 91pT
+a1pB a1pB a1pB a1pB a1pB a1pB a1pB a1pB
+a2pR a2pR a4pR a5pR a6pR a7pR a8pR a9pR
+12pT 12pT 14pT 15pT 16pT 17pT 18pT 19pT
+
+21pT,21pT,41pT,51pT,61pT,71pT,81pT,91pT,a1pB,a1pB,a1pB,a1pB,a1pB,a1pB,a1pB,a1pB,a2pR,a2pR,a4pR,a5pR,a6pR,a7pR,a8pR,a9pR,12pT,12pT,14pT,15pT,16pT,17pT,18pT,19pT
+
+
+
+00 10 20 30 40 ...
+01 11 21 31 41 ...
+02 12 22 32 42 ...
+03 13 23 33 43
+.. .. ..
+
+Red: #B15950
+Green: #579C4B
+Blue: #585A98
+Yellow: #CDCC0D
+
+
+kB = Blue king
+
+B = Bottom
+T = Top
+R = Right
+L = Left
+
+k = king
+q = queen
+r = rook
+b = bishop
+n = knight
+p = pawn

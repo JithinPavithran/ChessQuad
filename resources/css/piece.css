@@ -1,0 +1,40 @@
+.piece-my{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8.33%;
+    height: 8.33%;
+    pointer-events: auto;
+}
+
+.piece{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8.33%;
+    height: 8.33%;
+    pointer-events: none;
+}
+
+.highlight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8.33%;
+    height: 8.33%;
+    opacity: 0.5;
+    pointer-events: auto;
+}
+
+.R{
+    background-color: #B77673;
+}
+.G{
+    background-color: #579C4B;
+}
+.B{
+    background-color: #5E63AF;
+}
+.Y{
+    background-color: #C9C74C;
+}

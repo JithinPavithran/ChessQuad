@@ -1,0 +1,76 @@
+.board-container-size{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100vh;
+    max-height: 100vh;
+}
+
+.board-container-max-width{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    padding-left: 100%;
+    box-sizing: border-box;
+}
+
+.board-container-max-height{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    box-sizing: border-box;
+}
+
+.board-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.board{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: url("../img/board.svg") no-repeat;
+    z-index: 1;
+}
+
+.high-board{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    pointer-events:none
+}
+
+.piece-board{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.moves{
+    position: relative;
+    height: 100%;
+    /*width: 100%;*/
+    background-color: gray;
+}

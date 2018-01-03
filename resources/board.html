@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QuadChess</title>
+  <script src="mini/angular.min.js"></script>
+  <script src="mini/jquery-3.2.1.min.js"></script>
+  <script src="js/chess.js"></script>
+  <link rel="stylesheet" href="css/board.css">
+  <link rel="stylesheet" href="css/piece.css">
+  <link rel="stylesheet" href="css/color.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body ng-app="chess">
+<div class="board-container-size">
+  <div class="board-container-max-width">
+    <div class="board-container-max-height">
+      <div class="board-container">
+        <div id="board" class="board" ng-controller="boardCtrl" ng-init="init()">
+          <div id="piece_board" class="piece-board">
+
+          </div>
+          <div id="high_board" class="high-board">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+
+</html>
